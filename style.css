@@ -26,3 +26,12 @@ body::before {
     background-repeat: repeat-x;
     background-size: 50px auto;
 }
+@font-face {
+    font-family: "LePetit";
+    src: url("fonts/LePetit Font.ttf");
+}
+#gameDescription {
+    text-align: center;
+    font-size: 30px;
+    font-family: "LePetit", sans-serif;
+}
