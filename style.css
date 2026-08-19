@@ -1,0 +1,28 @@
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-image: url("images/Fancy Pants Background.png");
+    background-size: cover;
+    opacity: 0.5;
+    z-index: -2
+}
+.gameImage {
+    text-align: center;
+}
+.tabs {
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+}
+#squiggleLine {
+    height: 50px;
+    width: 100%;
+    background-image: url("images/Fancy Pants Squiggle.png");
+    background-repeat: repeat-x;
+    background-size: 50px auto;
+}
