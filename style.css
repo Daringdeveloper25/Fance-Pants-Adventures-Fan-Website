@@ -19,6 +19,45 @@ body::before {
     display: flex;
     gap: 30px;
 }
+.tab-content {
+  display: none;
+}
+.tab-content.active {
+  display: block;
+}
+.tab-button {
+    background-image: url("images/Fancy Pants Tab Button.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    border: none;
+    background-color: transparent;
+
+    width: 175px;
+    height: 125px;
+
+    cursor: pointer;
+    font-family: "LePetit", sans-serif;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    transition: background-image 0.3s ease-in-out, color 0.3s ease-in-out; /*Makes the buttons transition background images and colors smoothly*/
+}
+.tab-button.active {
+    background-image: url("images/Fancy Pants Tab Button Active.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    border: none;
+    background-color: transparent;
+
+    width: 175px;
+    height: 125px;
+
+    cursor: pointer;
+    font-family: "LePetit", sans-serif;
+    font-size: 15px;
+    color: rgb(252, 252, 252);
+}
 #squiggleLine {
     height: 50px;
     width: 100%;
